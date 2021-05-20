@@ -14,8 +14,8 @@ namespace Carl.Crm.OrgServiceProxy
             {
                 Uri oUri = new Uri("https://crm365-iis.x-code.pl/box/XRMServices/2011/Organization.svc");
                 ClientCredentials clientCredentials = new ClientCredentials();
-                clientCredentials.UserName.UserName = "lplonski";
-                clientCredentials.UserName.Password = "Bicek#2021";
+                clientCredentials.UserName.UserName = "lplonski@x-code.pl";
+                clientCredentials.UserName.Password = "xxxx";
 
                 OrganizationServiceProxy _serviceProxy = new OrganizationServiceProxy(oUri, null, clientCredentials, null);
                 _serviceProxy.EnableProxyTypes();
